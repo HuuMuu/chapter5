@@ -5,16 +5,106 @@
 }
 
 .heder {
-  background: red; /*後で削除*/
   text-align: center;
+  text-decoration: underline;
   padding: 20px 0px;
+  color: blue;
 }
 
 .top {
-  background-color: orange; /*後で削除*/
   display: flex;
   justify-content: center;
+  border-top: solid 1px #000000;
+  border-bottom: solid 1px #000000;
 }
 .webcamp {
   padding: 15px 20px 15px 20px;
+  text-decoration: underline;
+  color: blue;
+}
+
+.block-green {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.green1 {
+  width: 200px;
+  height: 200px;
+  background-color: #e6ffe9;
+}
+
+.green2 {
+  width: 200px;
+  height: 200px;
+  background-color: #cbffd3;
+}
+.green3 {
+  width: 200px;
+  height: 200px;
+  background-color: #aeffbd;
+}
+.green4 {
+  width: 200px;
+  height: 200px;
+  background-color: #93ffab;
+}
+
+.block-yello {
+  display: flex;
+  justify-content: center;
+}
+.yello1 {
+  width: 200px;
+  height: 200px;
+  background-color: #f3ffd8;
+}
+.yello2 {
+  width: 200px;
+  height: 200px;
+  background-color: #edffbe;
+}
+.yello3 {
+  width: 200px;
+  height: 200px;
+  background-color: #e9ffa5;
+}
+.yello4 {
+  width: 200px;
+  height: 200px;
+  background-color: #e4ff8d;
+}
+.block-bule {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+.bule1 {
+  width: 200px;
+  height: 200px;
+  background-color: #d9e5ff;
+}
+.bule2 {
+  width: 200px;
+  height: 200px;
+  background-color: #bad3ff;
+}
+.bule3 {
+  width: 200px;
+  height: 200px;
+  background-color: #a4c6ff;
+}
+.bule4 {
+  width: 200px;
+  height: 200px;
+  background-color: #8eb8ff;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 120px;
+  background-color: gray;
 }
