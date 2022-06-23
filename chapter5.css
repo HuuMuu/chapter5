@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.heder {
+  background: red; /*後で削除*/
+  text-align: center;
+  padding: 20px 0px;
+}
+
+.top {
+  background-color: orange; /*後で削除*/
+  display: flex;
+  justify-content: center;
+}
+.webcamp {
+  padding: 15px 20px 15px 20px;
+}
